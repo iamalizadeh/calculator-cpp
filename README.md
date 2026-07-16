@@ -1,91 +1,105 @@
+# C++ Console Calculator
 
-```markdown
-# Console Calculator in C++
+A simple and interactive console-based calculator developed in **C++**. This project provides a menu-driven interface that allows users to perform common mathematical operations while demonstrating fundamental programming concepts.
 
-A menu-driven calculator supporting arithmetic operations, factorial, power calculation, and prime number checking.
-
-## Description
-
-This is a fully-featured console calculator with an interactive menu system. It handles user input validation and supports a wide range of mathematical operations.
+---
 
 ## Features
 
-- **Basic Operations**: Addition, Subtraction, Multiplication, Division
-- **Factorial**: Calculate factorial of a non-negative integer
-- **Power**: Calculate a^b with support for negative exponents
-- **Prime Check**: Determine if a number is prime
-- **Input Validation**: Handles invalid inputs gracefully
-- **User-Friendly Menu**: Interactive menu system for easy navigation
+- ➕ Addition
+- ➖ Subtraction
+- ✖️ Multiplication
+- ➗ Division
+- 🔢 Power Calculation
+- √ Square Root
+- ❗ Factorial
+- 🔍 Prime Number Check
+- 📋 Menu-Driven User Interface
+- ⚠️ Basic Input Validation
 
-## How to Run
+---
 
-1. Compile the program:
-   ```bash
-   g++ Calculator.cpp -o Calculator
-```
+## Technologies Used
 
-2. Run the executable:
-   ```bash
-   ./Calculator
-   ```
-3. Select an option from the main menu (1-8)
+- C++
+- Functions
+- Loops
+- Conditional Statements
+- Switch-Case
+- `<cmath>` Library
 
-Example
-
-Menu:
-
-```
-***************** Main Menu ******************
-1- Adding two numbers
-2- Subtracting two numbers
-3- Multiplying two numbers
-4- Dividing two numbers
-5- Factorial
-6- Pow
-7- Prime
-8- Exit
-Choose the option you want (1-8):
-```
-
-Addition Example:
+---
 
 ```
-Choose the option you want (1-8): 1
-a = 10
-b = 20
-10+20 = 30
+## Getting Started
+
+### Requirements
+
+- C++11 or newer
+- g++ compiler
+
+### Compile
+
+```bash
+g++ src/Calculator.cpp -o Calculator
 ```
 
-Factorial Example:
+### Run
 
-```
-Choose the option you want (1-8): 5
-n = 5
-5! = 120
+```bash
+./Calculator
 ```
 
-Power Example:
+---
+
+## Sample Output
 
 ```
-Choose the option you want (1-8): 6
-a = 2
-b = -3
+========== Calculator ==========
+1. Addition
+2. Subtraction
+3. Multiplication
+4. Division
+5. Power
+6. Square Root
+7. Factorial
+8. Prime Check
+0. Exit
 
-2^-3 = 0.125
+Select an option:
 ```
 
-Prime Check Example:
+---
 
-```
-Choose the option you want (1-8): 7
-n = 17
+## Learning Outcomes
 
-17 is prime.
-```
+This project helped improve my understanding of:
 
-Technologies
+- Function Design
+- Mathematical Algorithms
+- Menu-Driven Applications
+- User Input Handling
+- Problem Solving in C++
 
-· C++
-· Recursion (for factorial)
-· Input Validation
-· Enum for Menu Options
+---
+
+## Future Improvements
+
+- Scientific Calculator
+- Calculation History
+- Better Error Handling
+- GUI Version using Qt
+
+---
+
+## Author
+
+**Amirhossein Alizadeh**
+
+GitHub: https://github.com/iamalizadeh
+
+---
+
+## License
+
+This project is licensed under the **MIT License**.
