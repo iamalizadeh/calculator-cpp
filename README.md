@@ -11,7 +11,6 @@ A simple and interactive console-based calculator developed in **C++**. This pro
 - ✖️ Multiplication
 - ➗ Division
 - 🔢 Power Calculation
-- √ Square Root
 - ❗ Factorial
 - 🔍 Prime Number Check
 - 📋 Menu-Driven User Interface
@@ -61,10 +60,9 @@ g++ src/Calculator.cpp -o Calculator
 3. Multiplication
 4. Division
 5. Power
-6. Square Root
-7. Factorial
-8. Prime Check
-0. Exit
+6. Factorial
+7. Prime Check
+8. Exit
 
 Select an option:
 ```
@@ -86,7 +84,6 @@ This project helped improve my understanding of:
 ## Future Improvements
 
 - Scientific Calculator
-- Calculation History
 - Better Error Handling
 - GUI Version using Qt
 
